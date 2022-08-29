@@ -105,7 +105,7 @@ class EDoctorWebView : DialogFragment() {
                 if (errorCode == -2) {
                     requireActivity().runOnUiThread {
                         loading.visibility = View.GONE
-                        containerErrorNetwork?.visibility = View.VISIBLE
+                        containerErrorNetwork.visibility = View.VISIBLE
                     }
                 }
                 super.onReceivedError(view, errorCode, description, failingUrl)

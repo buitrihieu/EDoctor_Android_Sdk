@@ -22,8 +22,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
     kotlinOptions {
         jvmTarget = '1.8'
@@ -48,9 +48,9 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = "vn.edoctor.sdk_edoctor"
+                groupId = "com.github.buitrihieu"
                 artifactId = "EDoctor_Android_Sdk"
-                version = '0.1.1'
+                version = '0.1.2'
             }
         }
     }

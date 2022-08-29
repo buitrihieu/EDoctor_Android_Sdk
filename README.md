@@ -24,7 +24,7 @@ dependencies {
 
 # Cách sử dụng SDK:
 
-### Khởi tạo PayME SDK:
+### Khởi tạo SDK:
 
 Trước khi sử dụng EDoctor SDK, cần gọi phương thức khởi tạo một lần duy nhất để khởi tạo SDK.
 
